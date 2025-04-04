@@ -1,0 +1,322 @@
+This file contains the result of the output of part 2
+The file was edited in order to find the wrong pairs
+
+
+
+
+z00       XOR       ['x00', 'y00']
+
+
+
+z01       XOR       ['nvd', 'dgj']
+           nvd (C0)    ['x00', 'y00']     AND
+           dgj         ['x01', 'y01']     XOR
+
+
+z02       XOR       ['rbw', 'tgb']
+           rbw         ['y02', 'x02']     XOR
+           tgb (C1)    ['ggk', 'qwq']     OR
+           ggk         ['x01', 'y01']     AND
+           qwq         ['dgj', 'nvd']     AND
+
+
+z03       XOR       ['sgn', 'hrp']
+           sgn (C2)    ['vvj', 'gjk']     OR
+           vvj         ['rbw', 'tgb']     AND
+           gjk         ['y02', 'x02']     AND
+           hrp         ['x03', 'y03']     XOR
+
+
+z04       XOR       ['cjv', 'qws']
+           cjv (C3)    ['mcf', 'bvk']     OR
+           mcf         ['y03', 'x03']     AND
+           bvk         ['hrp', 'sgn']     AND
+           qws         ['y04', 'x04']     XOR
+
+
+z05       XOR       ['crm', 'sss']
+           crm (C4)    ['fgb', 'grm']     OR
+           fgb         ['cjv', 'qws']     AND
+           grm         ['x04', 'y04']     AND
+           sss         ['y05', 'x05']     XOR
+
+
+z06       XOR       ['swj', 'rjv']
+           rjv         ['y06', 'x06']     XOR
+           swj (C5)    ['tcn', 'jsd']     OR
+           tcn         ['x05', 'y05']     AND
+           jsd         ['crm', 'sss']     AND
+                  
+
+
+z07       XOR       ['jqn', 'grj']
+           jqn         ['x07', 'y07']     XOR
+           grj (C6)    ['spj', 'hwk']     OR
+           hwk         ['y06', 'x06']     AND
+           spj         ['swj', 'rjv']     AND
+
+
+
+
+z08       XOR       ['bsc', 'sqw']
+           sqw         ['x08', 'y08']     XOR
+           bsc (C7)    ['rqr', 'ddw']     OR
+           rqr         ['grj', 'jqn']     AND
+           ddw         ['y07', 'x07']     AND
+
+
+z09       XOR       ['djg', 'npw']
+           npw         ['y09', 'x09']     XOR
+           djg         ['vmg', 'fns']     OR
+           vmg         ['x08', 'y08']     AND
+           fns         ['sqw', 'bsc']     AND
+
+
+z10       XOR       ['dff', 'ntb']
+           dff         ['y10', 'x10']     XOR
+           ntb         ['scf', 'gwn']     OR
+           scf         ['npw', 'djg']     AND
+           gwn         ['y09', 'x09']     AND
+
+
+z11       XOR       ['nff', 'brr']
+           nff         ['npm', 'wsq']     OR
+           npm         ['x10', 'y10']     AND
+           wsq         ['dff', 'ntb']     AND
+           brr         ['y11', 'x11']     XOR
+
+
+z12       XOR       ['wfs', 'cdh']
+           wfs         ['y12', 'x12']     XOR
+           cdh         ['hwc', 'rrk']     OR
+           hwc         ['brr', 'nff']     AND
+           rrk         ['x11', 'y11']     AND
+
+
+z13       XOR       ['fpp', 'wdv']
+           fpp         ['y13', 'x13']     XOR
+           wdv         ['dhf', 'ckm']     OR
+           dhf         ['y12', 'x12']     AND
+           ckm         ['cdh', 'wfs']     AND
+
+
+z14       XOR       ['pvw', 'gsp']
+           pvw         ['y14', 'x14']     XOR
+           gsp         ['cpp', 'dnj']     OR
+           cpp         ['fpp', 'wdv']     AND
+           dnj         ['y13', 'x13']     AND
+
+
+z15       XOR       ['hvt', 'qvb']
+           hvt         ['x15', 'y15']     XOR
+           qvb         ['btt', 'jqj']     OR
+           btt         ['x14', 'y14']     AND
+           jqj         ['pvw', 'gsp']     AND
+
+
+z16       XOR       ['vfj', 'srn']
+           vfj         ['ptf', 'stw']     OR
+           ptf         ['qvb', 'hvt']     AND
+           stw         ['x15', 'y15']     AND
+           srn         ['x16', 'y16']     XOR
+
+
+z17       XOR       ['brk', 'ttg']
+           brk         ['x17', 'y17']     XOR
+           ttg         ['fqs', 'crf']     OR
+           fqs         ['x16', 'y16']     AND
+           crf         ['srn', 'vfj']     AND
+
+
+z18       XOR       ['thj', 'qnb']
+           thj         ['x18', 'y18']     XOR
+           qnb         ['crc', 'bww']     OR
+           crc         ['y17', 'x17']     AND
+           bww         ['ttg', 'brk']     AND
+
+
+z19       XOR       ['gmw', 'nhk']
+           gmw         ['dsr', 'hsd']     OR
+           dsr         ['x18', 'y18']     AND
+           hsd         ['thj', 'qnb']     AND
+           nhk         ['x19', 'y19']     XOR
+
+
+z20       XOR       ['kbm', 'hqk']
+           kbm         ['y20', 'x20']     XOR
+           hqk         ['cjn', 'twp']     OR
+           cjn         ['nhk', 'gmw']     AND
+           twp         ['y19', 'x19']     AND
+
+
+z21       XOR       ['ftw', 'jbd']
+           ftw         ['y21', 'x21']     XOR
+           jbd         ['pjn', 'smj']     OR
+           pjn         ['y20', 'x20']     AND
+           smj         ['hqk', 'kbm']     AND
+
+
+z22       XOR       ['vwf', 'pcw']
+           vwf         ['wfb', 'hvb']     OR
+           wfb         ['ftw', 'jbd']     AND
+           hvb         ['x21', 'y21']     AND
+           pcw         ['y22', 'x22']     XOR
+
+
+z23       XOR       ['pfp', 'srt']
+           srt         ['y23', 'x23']     XOR
+           pfp         ['jkc', 'jmg']     OR
+           jkc         ['pcw', 'vwf']     AND
+           jmg         ['x22', 'y22']     AND
+
+
+z24       XOR       ['wpg', 'mhr']
+           mhr         ['y24', 'x24']     XOR
+           wpg         ['dmg', 'dwj']     OR
+           dmg         ['srt', 'pfp']     AND
+           dwj         ['y23', 'x23']     AND
+
+
+z25       XOR       ['nbs', 'tnt']
+           nbs         ['ptr', 'spw']     OR
+           ptr         ['wpg', 'mhr']     AND
+           spw         ['y24', 'x24']     AND
+           tnt         ['y25', 'x25']     XOR
+
+
+z26       XOR       ['khj', 'mbh']
+           mbh         ['y26', 'x26']     XOR
+           khj         ['qmd', 'vhp']     OR
+           qmd         ['y25', 'x25']     AND
+           vhp         ['tnt', 'nbs']     AND
+
+
+z27       XOR       ['dbm', 'rps']
+           rps         ['y27', 'x27']     XOR
+           dbm         ['wrk', 'krr']     OR
+           wrk         ['x26', 'y26']     AND
+           krr         ['mbh', 'khj']     AND
+
+
+z28       XOR       ['dpj', 'nbg']
+           nbg         ['x28', 'y28']     XOR
+           dpj         ['wqv', 'mkv']     OR
+           wqv         ['rps', 'dbm']     AND
+           mkv         ['y27', 'x27']     AND
+
+
+z29       XOR       ['skk', 'qfr']
+           skk         ['x29', 'y29']     XOR
+           qfr         ['ntg', 'sfd']     OR
+           ntg         ['nbg', 'dpj']     AND
+           sfd         ['y28', 'x28']     AND
+
+
+z30       XOR       ['rpt', 'rmb']
+           rmb         ['x30', 'y30']     XOR
+           rpt (C30)   ['qjh', 'ddk']     OR
+           qjh         ['skk', 'qfr']     AND
+           ddk         ['y29', 'x29']     AND
+
+
+z31       XOR       ['vkh', 'dtq']
+           vkh         ['y31', 'x31']     XOR
+           dtq (C30)   ['rtq', 'kcn']     OR
+           rtq         ['y30', 'x30']     AND
+           kcn         ['rmb', 'rpt']     AND
+
+
+z32       XOR       ['hpc', 'qrw']
+           qrw         ['y32', 'x32']     XOR
+           hpc         ['mjr', 'hgw']     OR
+           mjr         ['dtq', 'vkh']     AND
+           hgw         ['y31', 'x31']     AND
+
+
+z33       XOR       ['src', 'qmh']
+           qmh         ['x33', 'y33']     XOR
+           src         ['nnc', 'rnb']     OR
+           nnc         ['y32', 'x32']     AND
+           rnb         ['qrw', 'hpc']     AND
+
+
+z34       XOR       ['rtg', 'fsm']
+           fsm         ['x34', 'y34']     XOR
+           rtg         ['wnc', 'fmn']     OR
+           wnc         ['x33', 'y33']     AND
+           fmn         ['src', 'qmh']     AND
+
+
+z35       XOR       ['kpb', 'ktw']
+           ktw         ['y35', 'x35']     XOR
+           kpb         ['ctk', 'vbw']     OR
+           ctk         ['fsm', 'rtg']     AND
+           vbw         ['y34', 'x34']     AND
+
+
+z36       XOR       ['mgn', 'vgd']
+           mgn         ['y36', 'x36']     XOR
+           vgd         ['trr', 'fsd']     OR
+           trr         ['ktw', 'kpb']     AND
+           fsd         ['y35', 'x35']     AND
+
+
+z37       XOR       ['gqc', 'vqv']
+           vqv         ['x37', 'y37']     XOR
+           gqc         ['ksr', 'jvs']     OR
+           ksr         ['x36', 'y36']     AND
+           jvs         ['mgn', 'vgd']     AND
+
+
+z38       XOR       ['fsp', 'hbm']
+           fsp         ['y38', 'x38']     XOR
+           hbm         ['vbq', 'cgr']     OR
+           vbq         ['y37', 'x37']     AND
+           cgr         ['gqc', 'vqv']     AND
+
+
+z39       XOR       ['hdp', 'dcs']
+           dcs         ['x39', 'y39']     XOR
+           hdp         ['wdh', 'ckb']     OR
+           wdh         ['fsp', 'hbm']     AND
+           ckb         ['y38', 'x38']     AND
+
+
+z40       XOR       ['sgh', 'wmb']
+           sgh         ['y40', 'x40']     XOR
+           wmb         ['mqg', 'ddp']     OR
+           mqg         ['y39', 'x39']     AND
+           ddp         ['hdp', 'dcs']     AND
+
+
+z41       XOR       ['wwj', 'mkb']
+           mkb         ['x41', 'y41']     XOR
+           wwj         ['ddg', 'fvs']     OR
+           ddg         ['sgh', 'wmb']     AND
+           fvs         ['x40', 'y40']     AND
+
+
+z42       XOR       ['dqw', 'sgp']
+           dqw         ['y42', 'x42']     XOR
+           sgp         ['tfc', 'rpg']     OR
+           tfc         ['y41', 'x41']     AND
+           rpg         ['mkb', 'wwj']     AND
+
+
+z43       XOR       ['tvv', 'hbk']
+           tvv         ['x43', 'y43']     XOR
+           hbk         ['wjs', 'sdr']     OR
+           wjs         ['y42', 'x42']     AND
+           sdr         ['sgp', 'dqw']     AND
+
+
+z44       XOR       ['spm', 'qnw']
+           spm         ['x44', 'y44']     XOR
+           qnw (C43)   ['vbb', 'vhq']     OR
+           vbb         ['tvv', 'hbk']     AND
+           vhq         ['x43', 'y43']     AND
+
+
+z45       OR       ['rgn', 'mfp']
+           rgn         ['qnw', 'spm']     AND
+           mfp         ['x44', 'y44']     AND
